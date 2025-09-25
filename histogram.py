@@ -1,10 +1,9 @@
 import matplotlib.pyplot as plt
-import numpy as np
 
-y = np.array([35, 25, 25, 15])
-plt.hist(y, bins=4, edgecolor='black')
+data = [12, 15, 12, 18, 19, 15, 14, 20, 22, 21, 15, 18, 16]
 
-plt.title("Histogram")
-plt.xlabel("Value")
-plt.ylabel("Frequency")
+plt.hist(data, bins=5, color='skyblue', edgecolor='black')
+plt.title('Histogram Example')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
 plt.show()

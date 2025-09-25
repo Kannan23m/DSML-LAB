@@ -38,3 +38,5 @@ plt.figure(figsize=(10,6))
 sns.boxplot(data=iris.drop('species',axis=1))
 plt.title("boxplot for each feature")
 plt.show()
+
+    
